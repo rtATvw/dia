@@ -272,7 +272,7 @@ if example_txt_path.exists():
 
 
 # Build Gradio UI
-with gr.Blocks(css=css, theme="gradio/dark") as demo:
+with gr.Blocks(css=css) as demo:
     gr.Markdown("# Nari Text-to-Speech Synthesis")
 
     with gr.Row(equal_height=False):
